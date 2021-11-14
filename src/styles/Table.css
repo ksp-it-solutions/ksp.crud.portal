@@ -1,0 +1,94 @@
+/**
+ ** Created by: Emmanuel Toledo Castro
+ ** Created on: 11/11/2021
+ ** Updated on: 11/11/2021
+ ** Description: This CSS file contains all the necessaries classes to use on table elements.
+**/
+/* 
+.ksp-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ksp-table-thead {
+    border-bottom: solid 1.5px #C9C9C9;
+}
+
+.ksp-table-thead tr th {
+    text-align:left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border-right: solid 1.5px #C9C9C9;
+}
+
+.ksp-table-thead tr th:first-child,
+.ksp-table-tbody tr td:first-child {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.ksp-table-tbody tr {
+    border-bottom: solid .4px #A0A0A0;
+     box-shadow: 0px 14px 5px -15px #A0A0A0; 
+}
+
+.ksp-table-tbody tr:hover {
+    background-color: #F0F0F0;
+}
+
+.ksp-table-tbody tr td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+ .ksp-table-tbody tr:nth-child(even) {
+    background-color: #F0F0F0;
+}  
+*/
+
+
+.ksp-table {
+    border-collapse: collapse;
+    /* margin: 25px 0; */
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.ksp-table thead tr {
+    /* background-color: #009879; */
+    background-color: #0d598b;
+    color: #ffffff;
+    text-align: left;
+}
+
+.ksp-table th,
+.ksp-table td {
+    padding: 12px 15px;
+}
+
+.ksp-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.ksp-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.ksp-table tbody tr:last-of-type {
+    /* border-bottom: 2px solid #009879; */
+    border-bottom: 2px solid #0d598b;
+}
+
+.ksp-table tbody tr.active-row {
+    font-weight: bold;
+    /* color: #009879; */
+    color: #0d598b;
+}
