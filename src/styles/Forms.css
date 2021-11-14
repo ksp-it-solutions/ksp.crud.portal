@@ -1,0 +1,119 @@
+/**
+ ** Created by: Emmanuel Toledo Castro
+ ** Created on: 11/11/2021
+ ** Updated on: 11/11/2021
+ ** Description: This CSS file contains all the necessaries classes to use on forms in our application.
+**/
+.ksp-form-container {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.kps-title-form {
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.ksp-title-form-identification {
+  font-weight: 500;
+}
+
+.kps-subtitle-form {
+  color: #434343;
+  margin-bottom: 20px;
+}
+
+.ksp-container-control {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ksp-form-label {
+  font-size: 16px;
+  color: #434343;
+}
+
+.ksp-form-label .required {
+  color: red;
+}
+
+.ksp-button {
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 16px;
+}
+
+.ksp-button-primary {
+  border: 0px;
+  background-color: #0d598b;
+  color: #fff;
+}
+
+.ksp-button-primary[disabled]{
+  background-color: #0d598b80;
+  cursor: default;
+}
+
+.ksp-button-danger {
+  border: 0px;
+  background-color: #B41313;
+  color: #fff;
+}
+
+.ksp-button-danger[disabled]{
+  background-color: #B4131380;
+  cursor: default;
+}
+
+.ksp-button-info {
+  border: 0px;
+  background-color: #e2e2e2;
+  color: #000;
+}
+
+.ksp-button-info[disabled]{
+  background-color: #e2e2e280;
+  cursor: default;
+}
+
+.ksp-form-control[type="text"],
+.ksp-form-control[type="password"],
+.ksp-form-control[type="number"],
+.ksp-form-control[type="date"],
+.ksp-form-control[type="email"],
+select.ksp-form-control  {
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 0px;
+  border: 0.8px solid #c5c5c5;
+}
+
+.ksp-form-control[type="file"] {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  padding-top: 5px;
+}
+
+.ksp-form-control[type="text"]:focus,
+.ksp-form-control[type="password"]:focus,
+.ksp-form-control[type="number"]:focus,
+.ksp-form-control[type="date"]:focus,
+.ksp-form-control[type="email"]:focus,
+select.ksp-form-control:focus {
+  outline: none !important;
+  border-color: #c5c5c5;
+  box-shadow: 0 0 2px #c5c5c5;
+}
